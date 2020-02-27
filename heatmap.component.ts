@@ -58,7 +58,7 @@ export class HeatmapComponent implements OnInit {
       this.imageUrl = canvasEle.toDataURL('image/jpg');
       this.images.push(this.imageUrl);
     }
-    setInterval(() => { this.setRenderData(); this.setData(); }, 500);
+    setInterval(() => { this.setRenderData(); this.setData(); }, 1000);
   }
 
   indexCount = 0;
