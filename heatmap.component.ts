@@ -42,6 +42,7 @@ export class HeatmapComponent implements OnInit {
       }]
     });
 
+    // generate sample x,y data for heatmap report 
     for (let j = 1; j < 20; j++) {
       let dataArr = [];
       for (let i = 0; i < 10; i++) {
